@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return "HOTEL MANAGEMENT SYSTEM API IS WORKING"
 
 # Get database URL from environment variable
 DATABASE_URL = os.environ.get("DATABASE_URL")
